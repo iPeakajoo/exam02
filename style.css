@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #a7bbac;
+    font-family: 'Kanit', sans-serif;
+}
+
+.head {
+    background-color: #3d3b2c;
+    color: #a7bbac;
+    border-bottom: 3px solid #a7bbac;
+
+}
+
+.container {
+    width: 960px;
+    margin: 0px auto;
+}
+
+.logo {
+    float: left;
+    padding: 40px;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+}
+
+.right-menu {
+    float: right;
+    padding: 40px;
+}
+
+.nav {
+    background-color: #757f49;
+}
+
+.nav>ul {
+    float: left;
+    
+}
+
+
+ul>li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #a7bbac;
+}
+
+a:hover {
+    color: white;
+}
+
+ul>li:hover {
+    background-color: #3d3b2c;
+}
+
+.slide {
+
+    background-color: #906b16;
+    
+}
+
+.jumbotron {
+    height: 400px;
+    width: 100%;
+    background-image: url("images/fruit05.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item-product {
+    width: 23%;
+    float: left;
+    margin: 9px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 8px 2px #62626255;
+    margin-bottom: 40px;
+}
+
+.item-product-detail{
+    width: 400px;
+    height: 350px;
+    float: left;
+    margin: 9px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 8px 2px #62626255;
+}
+
+.item-product:hover {
+    transform: scale(1.2);
+}
+
+.title {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.item-product>img {
+    width: 100%;
+
+}
+
+.item-product>h2 {
+    font-size: 24px;
+    text-align: center;
+}
+.item-product>p {
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+}
+
+.footer {
+    background-color: #3d3b2c;
+    text-align: center;
+    padding: 40px;
+    color: #a7bbac;
+}
