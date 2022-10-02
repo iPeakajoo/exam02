@@ -15,7 +15,6 @@ body {
     background-color: #3d3b2c;
     color: #a7bbac;
     border-bottom: 3px solid #a7bbac;
-
 }
 
 .container {
@@ -41,9 +40,7 @@ body {
 
 .nav>ul {
     float: left;
-    
 }
-
 
 ul>li {
     list-style-type: none;
@@ -65,9 +62,7 @@ ul>li:hover {
 }
 
 .slide {
-
     background-color: #906b16;
-    
 }
 
 .jumbotron {
@@ -87,17 +82,20 @@ ul>li:hover {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 2px 2px 8px 2px #62626255;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
-.item-product-detail{
+.item-product-detail {
     width: 400px;
-    height: 350px;
+    height: 400px;
     float: left;
     margin: 9px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 2px 2px 8px 2px #62626255;
+}
+.item-product-detail>p{
+    padding: 20px;
 }
 
 .item-product:hover {
@@ -112,13 +110,13 @@ ul>li:hover {
 
 .item-product>img {
     width: 100%;
-
 }
 
 .item-product>h2 {
     font-size: 24px;
     text-align: center;
 }
+
 .item-product>p {
     font-size: 16px;
     text-align: center;
